@@ -2,6 +2,8 @@
 
 By default Keycloak (up to 12) only supports ReCaptcha for Registration, not login. so we created a simple module for activating recaptcha for login
 
+### Tested at keycloak version 25.0.1
+
 # How to use
 * first run `mvn clean install`. it will produce `target/recaptcha-login.jar`.
 * Then start keycloak with `docker-compose up`
